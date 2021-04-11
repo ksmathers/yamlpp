@@ -15,7 +15,7 @@ The M4 macro processing language is a plausible alternative, allowing the use of
 
 ## Examples
 
-In the first example the macro named '@TAGS' is created with a document as its content, denoted by the enclosing double angle brackets (<< text >>).   Within those brackets the text will be faithfully reproduced except that the indentation of the entire block will be inserted at the indentation where the macro is invoked. 
+In the first example the macro named '@TAGS' is created with a document as its content, denoted by the enclosing double angle brackets (`<<text>>`).   Within those brackets the text will be faithfully reproduced except that the indentation of the entire block will be inserted at the indentation where the macro is invoked. 
 
 ```yaml
 @TAGS=<<
