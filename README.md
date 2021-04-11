@@ -18,12 +18,12 @@ The M4 macro processing language is a plausible alternative, allowing the use of
 ```yaml
 @TAGS=<<
 Tags:
-  Name: "Environment"
-  Value: "PROD"
-  Name: "AppID"
-  Value: "A6649"
-  Name: "Classification"
-  Value: "Confidential"
+  - Name: "Environment"
+    Value: "PROD"
+  - Name: "AppID"
+    Value: "A6649"
+  - Name: "Classification"
+    Value: "Confidential"
 >>
 
 Resources:
